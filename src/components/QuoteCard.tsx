@@ -55,43 +55,43 @@ export default function QuoteCard({ quote, loading, onNext }: QuoteCardProps) {
                         </p>
 
                         <div className="flex justify-center">
-    <button
-        onClick={onNext}
-        disabled={loading}
-        className={`px-8 py-3 rounded-full font-semibold text-white
+                            <button
+                                onClick={onNext}
+                                disabled={loading}
+                                className={`px-8 py-3 rounded-full font-semibold text-white
         transition-all duration-300 flex items-center gap-2
         shadow-[0_0_10px_rgba(99,102,241,0.6)]
         ${loading
-            ? "bg-indigo-400 cursor-not-allowed"
-            : "bg-indigo-500 hover:bg-indigo-700"}
+                                        ? "bg-indigo-400 cursor-not-allowed"
+                                        : "bg-indigo-500 hover:bg-indigo-700"}
         `}
-    >
-        {loading ? (
-            <div className="flex items-center gap-1">
-                <span className="w-2 h-2 bg-white rounded-full animate-bounce [animation-delay:-0.2s]"></span>
-                <span className="w-2 h-2 bg-white rounded-full animate-bounce [animation-delay:-0.1s]"></span>
-                <span className="w-2 h-2 bg-white rounded-full animate-bounce"></span>
-            </div>
-        ) : "Next Quote"}
-    </button>
-</div>
+                            >
+                                {loading ? (
+                                    <div className="flex items-center gap-1">
+                                        <span className="w-2 h-2 bg-white rounded-full animate-bounce [animation-delay:-0.2s]"></span>
+                                        <span className="w-2 h-2 bg-white rounded-full animate-bounce [animation-delay:-0.1s]"></span>
+                                        <span className="w-2 h-2 bg-white rounded-full animate-bounce"></span>
+                                    </div>
+                                ) : "Next Quote"}
+                            </button>
+                        </div>
 
                     </div>
                 </div>
             </div>
 
             {/* SHARE BUTTON BELOW RIGHT */}
-          <div className="max-w-xl w-full flex justify-end mt-3 pr-2">
-    <button
-        onClick={takeScreenshot}
-        className="px-5 py-2 rounded-full text-white font-semibold 
+            <div className="max-w-xl w-full flex justify-end mt-3 pr-2">
+                <button
+                    onClick={takeScreenshot}
+                    className="px-5 py-2 rounded-full text-white font-semibold 
         bg-indigo-500 hover:bg-indigo-700 
         shadow-[0_0_10px_rgba(99,102,241,0.6)]
         transition-all duration-300"
-    >
-        Share
-    </button>
-</div>
+                >
+                    Share
+                </button>
+            </div>
 
 
             {/* Popup Modal */}

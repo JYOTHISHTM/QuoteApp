@@ -10,8 +10,8 @@ function App() {
             id: i,
             top: `${Math.random() * 100}%`,
             left: `${Math.random() * 100}%`,
-            size: `${Math.random() * 14 + 4}px`, // 4px to 18px
-            duration: `${Math.random() * 5 + 5}s`, // 5s to 10s (faster)
+            size: `${Math.random() * 14 + 4}px`,
+            duration: `${Math.random() * 5 + 5}s`, 
             delay: `${Math.random() * -10}s`,
         }));
     }, []);
