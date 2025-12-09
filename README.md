@@ -5,6 +5,11 @@
 A modern, minimal, and interactive web application that fetches random quotes, displays them with dynamic animations, and allows users to capture and share the quote as an image. Designed with a neon cyber/minimal theme and smooth UI interactions.
 #Features
 
+## 🎥 Video Preview  
+
+[![Watch the video](https://img.youtube.com/vi/c5Gyg0ftSiA/maxresdefault.jpg)](https://youtu.be/c5Gyg0ftSiA)
+
+
 # 1. Fetch Random Quotes
 Retrieves a new quote from an API with a single click.
 
